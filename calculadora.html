@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Digital</title>
     <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
-
 </head>
 <body>
     <div class="fundo">
@@ -42,21 +41,15 @@
                     <td><button class="botao" onclick="insert('.')">.</button></td>
                 </tr>
             </table>
-
-            
-    
     </div>
-
     <div class='page test-page' id='ivp-page-1'>
         <h4>Criado por: JackelineBDuginski</h4>
     </div>
-    
     <script>
         function insert(num)
         {
-        var numero = document.getElementById('resultado').innerHTML;
-        document.getElementById('resultado').innerHTML = numero + num;
-
+            var numero = document.getElementById('resultado').innerHTML;
+            document.getElementById('resultado').innerHTML = numero + num;
         }
         function clean()
         {
@@ -80,6 +73,5 @@
             }
         }
     </script>
-    
 </body>
 </html>
